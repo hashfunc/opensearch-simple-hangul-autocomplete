@@ -19,6 +19,14 @@ AWS OpenSearch 환경에서는 제공되는 플러그인만 사용할 수 있고
 
 ## 환경
 
-- Docker
+- Docker (Compose)
 - OpenSearch 1.2
   - AWS OpenSearch에서 사용할 수 있는 최신 환경입니다.
+
+## 실행
+
+### 환경 실행
+
+```sh
+docker-compose up
+```
