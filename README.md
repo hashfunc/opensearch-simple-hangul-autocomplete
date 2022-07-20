@@ -30,3 +30,11 @@ AWS OpenSearch 환경에서는 제공되는 플러그인만 사용할 수 있고
 ```sh
 docker-compose up
 ```
+
+### 인덱스 생성
+
+준비된 스크립트로 `store` 인덱스를 생성할 수 있습니다.
+
+```sh
+./scripts/create_index.py
+```
