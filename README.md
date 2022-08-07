@@ -38,3 +38,13 @@ docker-compose up
 ```sh
 ./scripts/create_index.py
 ```
+
+### 데이터 입력
+
+`소상공인시장진흥공단 상가(상권)정보`를 사용하는 경우 준비된 스크립트로 데이터를 입력할 수 있습니다.
+
+/.data 디렉터리에 압축을 풀고 아래와 같이 스크립트를 실행합니다.
+
+```sh
+./scripts/insert_data.py
+```
